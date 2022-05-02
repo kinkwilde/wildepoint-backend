@@ -1,0 +1,34 @@
+{
+    "name": "strapi-postgres-cloudinary",
+    "private": true,
+    "version": "0.1.0",
+    "description": "A Strapi application",
+    "scripts": {
+        "develop": "strapi develop",
+        "start": "strapi start",
+        "build": "strapi build",
+        "strapi": "strapi",
+        "gcp-build": "strapi build"
+    },
+    "dependencies": {
+        "@strapi/plugin-graphql": "^4.1.9",
+        "@strapi/plugin-i18n": "4.1.9",
+        "@strapi/plugin-users-permissions": "4.1.9",
+        "@strapi/provider-upload-cloudinary": "4.1.9",
+        "@strapi/strapi": "4.1.9",
+        "pg": "^8.7.3",
+        "pg-connection-string": "^2.5.0",
+        "sqlite3": "latest"
+    },
+    "author": {
+        "name": "A Strapi developer"
+    },
+    "strapi": {
+        "uuid": "5dbc738b-6a52-4a78-a46c-eed70aa61c15"
+    },
+    "engines": {
+        "node": ">=12.22.0 <=16.x.x",
+        "npm": ">=6.0.0"
+    },
+    "license": "MIT"
+}
