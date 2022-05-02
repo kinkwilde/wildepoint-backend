@@ -1,3 +1,3 @@
 module.exports = ({ env }) => ({
-    url: env("EXTRNAL_URL"),
+    url: env("ADMIN_URL"),
 });
