@@ -4,7 +4,8 @@
   "info": {
     "singularName": "index",
     "pluralName": "indexes",
-    "displayName": "Index"
+    "displayName": "Index",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,16 +16,15 @@
     }
   },
   "attributes": {
-    "content": {
+    "richtext": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "dynamiczone",
-      "components": [
-        "homepage.hero"
-      ]
+      "component": "content.richtext"
     }
   }
 }
