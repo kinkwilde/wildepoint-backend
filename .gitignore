@@ -114,6 +114,7 @@ license.txt
 exports
 .cache
 build
+.strapi-updater.json
 
 ############################
 # VS Code
