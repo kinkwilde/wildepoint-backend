@@ -13,6 +13,7 @@ module.exports = [
             "blob:",
             "dl.airtable.com",
             "res.cloudinary.com",
+            "wildepoint-backend-349002.ey.r.appspot.com",
           ],
           "media-src": [
             "'self'",
@@ -20,6 +21,7 @@ module.exports = [
             "blob:",
             "dl.airtable.com",
             "res.cloudinary.com",
+            "wildepoint-backend-349002.ey.r.appspot.com",
           ],
           upgradeInsecureRequests: null,
         },
