@@ -1,9 +1,50 @@
-# Deploy Strapi to Render
+# **WILDEPOINT** BACKEND
 
-This is a sample [Strapi](https://strapi.io/) app, configured for deployment to [Render](https://render.com). It uses a [managed PostgreSQL database](https://render.com/docs/databases) to store structured content and [Cloudinary](https://cloudinary.com) to store and serve uploaded media files.
+Badge
 
-To deploy, create a Cloudinary account and make note of your cloud name, api key, and api secret. Then fork this repo and click the button below. Fill in your Cloudinary account details when prompted.
+# Table of Contents
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+1. [Supported devices](#supported-devices)
+2. [Prerequisites](#prerequisites)
+3. [Installation](#installation)
+4. [Usage](#usage)
+   - [First function](#first-function)
+   - [Second function](#second-function)
+5. [License](#license)
 
-See the guide at https://render.com/docs/deploy-strapi for more information.
+## Supported devices
+
+## Prerequisites
+
+## Installation
+
+Run
+
+```
+npm i
+```
+
+## Usage
+
+### First Function
+
+Add the required environment files / values
+
+### Second Function
+
+Run
+
+```
+npm run develop
+```
+
+## VS Code Setup
+
+Plugins required for visual studio code.
+
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [GraphQL](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+## License
