@@ -2,17 +2,27 @@ runtime: nodejs
 
 env: flex
 
+instance_class: B1
+
 env_variables:
   NODE_ENV: "production"
 
 beta_settings:
   cloud_sql_instances: "wildepoint-backend-349002:europe-west2:wildepoint-strapi"
 
-automatic_scaling:
-  min_num_instances: 1
-  max_num_instances: 2
+manual_scaling:
+  instances: 1
+
+# automatic_scaling:
+#   min_num_instances: 1
+#   max_num_instances: 2
+
+# resources:
+#   cpu: 2
+#   memory_gb: 4
+#   disk_size_gb: 10
 
 resources:
-  cpu: 2
-  memory_gb: 4
+  cpu: 1
+  memory_gb: 2
   disk_size_gb: 10
