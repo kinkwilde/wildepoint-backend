@@ -1,6 +1,7 @@
-runtime: nodejs
+runtime: nodejs16
 
-env: flex
+# env: flex
+env: standard
 
 instance_class: B1
 
@@ -12,7 +13,7 @@ beta_settings:
 
 manual_scaling:
   instances: 1
-
+#
 # automatic_scaling:
 #   min_num_instances: 1
 #   max_num_instances: 2
@@ -21,8 +22,3 @@ manual_scaling:
 #   cpu: 2
 #   memory_gb: 4
 #   disk_size_gb: 10
-
-resources:
-  cpu: 1
-  memory_gb: 2
-  disk_size_gb: 10
